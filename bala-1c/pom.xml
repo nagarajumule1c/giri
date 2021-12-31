@@ -21,23 +21,23 @@
 
 	<build>
 		<plugins>
-
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>3.3.5</version>
+				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>4.2.3</muleVersion>
-						<username>nagarajumyle1b</username>
+						<muleVersion>4.3.0</muleVersion>
+						<username>nagarajumule1b</username>
 						<password>Nagaraju@225</password>
-						<applicationName>mulesoft-cicd-sample1</applicationName>
+						<applicationName>bala-1c</applicationName>
 						<environment>Sandbox</environment>
 						<workerType>MICRO</workerType>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
+
 				</configuration>
 			</plugin>
 			<plugin>
